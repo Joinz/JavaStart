@@ -25,14 +25,14 @@ public class Main {
 					String ch4 = char4 + "\n";
 					int char5 = number % 10;
 					String ch5 = char5 + "\n";
-		
+
 					String result = ch1 + ch2 + ch3 + ch4 + ch5;
 					System.out.println(result);
-				} else { 
-					System.out.println("You did not enter a 5-digit number");
+				} else {
+					System.out.println("You entered more than 5 digits");
 				}
-			} else { 
-				System.out.println("You did not enter a 5-digit number");
+			} else {
+				System.out.println("You entered less than 5 digits");
 			}
 		} else {
 			System.out.println("You did not enter an integer");
