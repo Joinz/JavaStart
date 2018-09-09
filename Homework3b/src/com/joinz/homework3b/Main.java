@@ -18,7 +18,7 @@ public class Main {
 		if ((flatNumber >= 0) && (flatNumber < flatsInPorch * porches)) {
 			System.out.println("It is " + porch + " porch, " + floor + " floor");
 		} else {
-			System.out.println("404");
+			System.out.println("404 WTF!!!");
 		}
 
 		sc.close();
