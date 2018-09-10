@@ -15,6 +15,8 @@ public class Main {
 		} else {
 			System.out.println("It is not a leap-year: it has 365 days");
 		}
+		
+		sc.close();
 	}
 
 }
