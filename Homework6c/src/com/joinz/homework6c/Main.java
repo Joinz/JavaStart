@@ -12,7 +12,7 @@ public class Main {
 	 * @param h int height
 	 * @param w int width
 	 */
-	static void printRectangle(int h, int w ) {
+	public static void printRectangle(int h, int w ) {
 		for (int i = 1; i <= h; i++) {
 			for (int j = 1; j <= w; j++) {
 				System.out.print("*");
