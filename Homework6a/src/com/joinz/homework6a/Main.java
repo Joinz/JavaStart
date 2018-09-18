@@ -20,7 +20,7 @@ public class Main {
 	/**
 	 * Search maximum integer of massive integers.
 	 * 
-	 * @param array <code>array</code> which need to search.
+	 * @param array <code>int[]</code> which need to search.
 	 * @return Maximum integer value.
 	 */
 	static int max(int[] array) {
