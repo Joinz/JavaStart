@@ -8,7 +8,13 @@ public class Main {
 		String c = " blabla";
 		System.out.println(conc(a, b, c));
 	}
-	
+	/**
+	 * Returns concatenated sum of (<b>int a</b> + <b>double b</b>) with <b>String c</b>.
+	 * @param a int
+	 * @param b double
+	 * @param c String
+	 * @return concatenated sum of <b>int a</b> and <b>double b</b> with <b>String c</b>
+	 */
 	public static String conc(int a, double b, String c) {
 		double d = a + b;
 		String e = d + c;
