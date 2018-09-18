@@ -13,7 +13,7 @@ public class Main {
 	 * @param a int
 	 * @return <b>index</b> of found element or <b>-1</b>.
 	 */
-	static int findElement(int[] array, int a) {
+	public static int findElement(int[] array, int a) {
 		int ret = -1;
 		for (int i = 0; i < array.length; i++) {
 			if(array[i] == a) {
