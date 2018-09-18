@@ -10,6 +10,11 @@ public class Main {
 		sc.close();
 	}
 	
+	/**
+	 * Counts the number of words.
+	 * @param s String
+	 * @return <b>int</b> number of words
+	 */
 	static int wordsQuantity(String s) {
 		String[] t = s.split("[ ]");
 		return t.length;
