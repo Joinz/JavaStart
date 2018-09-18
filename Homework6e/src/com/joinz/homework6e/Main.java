@@ -15,7 +15,7 @@ public class Main {
 	 * @param s String
 	 * @return <b>int</b> number of words
 	 */
-	static int wordsQuantity(String s) {
+	public static int wordsQuantity(String s) {
 		String[] t = s.split("[ ]");
 		return t.length;
 	}
