@@ -23,7 +23,7 @@ public class Main {
 	 * @param array <code>int[]</code> which need to search.
 	 * @return Maximum integer value.
 	 */
-	static int max(int[] array) {
+	public static int max(int[] array) {
 		int max = 0;
 		for (int i = 0; i < array.length; i++) {
 			if (max <= array[i]) {
