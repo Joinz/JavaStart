@@ -14,6 +14,7 @@ public class Main {
 			mas[i] = mas[mas.length - (i+1)];
 			mas[mas.length - (i+1)] = temp;
 		}
+		
 		System.out.println(Arrays.toString(mas));
 	}
 
