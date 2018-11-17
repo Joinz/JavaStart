@@ -26,6 +26,7 @@ public class Main {
 		if (d > max) {
 			max = d;
 		}
+		
 		System.out.println("Max = " + max);
 		
 		sc.close();
